@@ -1,0 +1,563 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+.main-container {
+    height: auto;
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.special {
+    width: 10%;
+    display: none;
+}
+
+.ul-1 {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.image {
+    width: 100px;
+    padding-left: 20px;
+
+}
+
+.image img {
+    width: 100%;
+}
+
+.ul-2 {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.hero-section {
+    height: 450px;
+    width: 100%;
+
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-M1-Family-02-1:VP4-1399x600);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.hero-section h1 {
+    text-align: center;
+    width: 50%;
+    padding-right: 30px;
+}
+
+.hero-section p {
+    text-align: center;
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.hero-section button {
+    text-align: center;
+    width: 10%;
+    height: 30px;
+    color: white;
+    background-color: royalblue;
+    border: none;
+    position: relative;
+    right: 270px;
+    border-radius: 10px;
+}
+
+.hero-section button:hover {
+    color: black;
+}
+
+.box-1 {
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div1 {
+    width: 20%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fa-microsoft:hover {
+    transition: all ease-in-out;
+    transform: scale(120%);
+
+}
+
+.fa-laptop:hover {
+    transition: ALL ease-in-out;
+    transform: scale(120%);
+}
+
+.fa-mobile:hover {
+    transition: ALL ease-in-out;
+    transform: scale(120%);
+}
+
+.fa-microsoft:hover {
+    transition: ALL ease-in-out;
+    transform: scale(120%);
+}
+
+.div2 {
+    width: 20%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div3 {
+    width: 20%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div4 {
+    width: 20%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-2 img {
+    width: 100%;
+}
+
+.box-2-a {
+    width: 20%;
+    height: 500px;
+}
+
+.box-2-a h1 {
+    padding: 20px 0px 20px 0px;
+}
+
+.box-2-a p {
+    padding-bottom: 20px;
+}
+
+.box-2-b {
+    width: 20%;
+    height: 500px;
+}
+
+.box-2-b h1 {
+    padding: 20px 0px 20px 0px;
+}
+
+.box-2-b p {
+    padding-bottom: 20px;
+}
+
+.box-2-c {
+    width: 20%;
+    height: 500px;
+}
+
+.box-2-c h1 {
+    padding: 20px 0px 20px 0px;
+}
+
+.box-2-c p {
+    padding-bottom: 20px;
+}
+
+.box-2-d {
+    width: 20%;
+    height: 500px;
+}
+
+.box-2-d h1 {
+    padding: 20px 0px 20px 0px;
+}
+
+.box-2-d p {
+    padding-bottom: 20px;
+}
+
+.box-3 {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-section {
+    width: 40%;
+    height: 400px;
+}
+
+.image-section img {
+    width: 100%;
+    height: 400px;
+}
+
+.text-section {
+    width: 40%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F2F2F2;
+}
+
+.text-section p {
+    padding: 20px 0px 20px 0px;
+}
+
+.text-section button {
+    width: 150px;
+    height: 30px;
+    background-color: royalblue;
+    border: none;
+    color: white;
+}
+
+.box-4 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-4 img {
+    width: 100%;
+}
+
+.box-4-a {
+    width: 20%;
+    height: 500px;
+}
+
+.box-4-a h1 {
+    padding: 20px 0px 20px 0px;
+}
+
+.box-4-a p {
+    padding-bottom: 20px;
+}
+
+.box-4-b {
+    width: 20%;
+    height: 500px;
+}
+
+.box-4-b h1 {
+    padding: 20px 0px 20px 0px;
+}
+
+.box-4-b p {
+    padding-bottom: 20px;
+}
+
+.box-4-c {
+    width: 20%;
+    height: 500px;
+}
+
+.box-4-c h1 {
+    padding: 20px 0px 20px 0px;
+}
+
+.box-4-c p {
+    padding-bottom: 20px;
+}
+
+.box-4-d {
+    width: 20%;
+    height: 500px;
+}
+
+.box-4-d h1 {
+    padding: 20px 0px 20px 0px;
+}
+
+.box-4-d p {
+    padding-bottom: 20px;
+}
+
+.box-5 {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-5-ul-1 {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.box-5-ul-2 {
+    width: 30%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    list-style: none;
+}
+
+.box-5-ul-2 button {
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: rgb(188, 183, 183);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.box-5-ul-2 button:hover {
+    background-color: transparent;
+
+}
+
+.box-6 {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 40px;
+}
+
+.box-6 ul {
+    list-style: none;
+}
+
+.box-6 h1 {
+    padding-top: 30px;
+}
+
+.box-7 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.box-7-ul-1 {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.box-7-ul-2 {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+@media (max-width:768px) {
+    .main-container {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .navbar {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .ul-1 {
+        display: none;
+    }
+
+    .ul-2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-section {
+        width: 100%;
+        height: 300px;
+        text-align: center;
+    }
+
+    .hero-section button {
+        width: 30%;
+        position: relative;
+        right: 40px;
+    }
+
+    .box-2 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .box-2-a {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-2-b {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-2-c {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-2-d {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-3 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .image-section {
+        width: 100%;
+        height: auto;
+    }
+
+    .text-section {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-4 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .box-4-a {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-4-b {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-4-c {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-4-d {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-5 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .box-5-ul-1 {
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+    }
+
+    .box-5-ul-2 {
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+    }
+
+    .box-6 {
+        display: none;
+    }
+
+    .box-7 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .box-7-ul-1 {
+        width: 100%;
+        height: 80px;
+        padding-top: 20px;
+    }
+
+    .box-7-ul-2 {
+        display: none;
+    }
+
+    .box-1 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        line-height:50px;
+    }
+    .div1{ width: 100%; height: auto; padding-top: 10px;}
+    .div2{ width: 100%; height: auto;}
+    .div3{ width: 100%; height: auto;}
+    .div4{ width: 100%; height: auto;}
+}
